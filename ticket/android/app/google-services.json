@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "416377232774",
+    "firebase_url": "https://busticket-1edeb-default-rtdb.firebaseio.com",
+    "project_id": "busticket-1edeb",
+    "storage_bucket": "busticket-1edeb.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:416377232774:android:e2143b3961b500d343a007",
+        "android_client_info": {
+          "package_name": "com.example.womenss"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCqy9lKhCK_wx64NCjbQG7lyq3SKzoKXSs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

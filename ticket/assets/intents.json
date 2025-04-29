@@ -1,0 +1,455 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["hi"],
+      "responses": ["what."],
+      "context_set": ""
+    },
+    {
+      "tag": "farewell",
+      "patterns": ["How do you say 'Goodbye' in French?"],
+      "responses": ["Au revoir."],
+      "context_set": ""
+    },
+    {
+      "tag": "introduction",
+      "patterns": ["How do you introduce yourself? ('My name is...')"],
+      "responses": ["Je m'appelle [your name]."],
+      "context_set": ""
+    },
+    {
+      "tag": "how_are_you",
+      "patterns": ["How do you ask 'How are you?' in French?"],
+      "responses": ["Comment ça va ?"],
+      "context_set": ""
+    },
+    {
+      "tag": "how_are_you_response",
+      "patterns": ["How do you respond to 'How are you?' with 'I’m fine, thank you'?"],
+      "responses": ["Je vais bien, merci."],
+      "context_set": ""
+    },
+    {
+      "tag": "thank_you",
+      "patterns": ["What is the French word for 'Thank you'?"],
+      "responses": ["Merci."],
+      "context_set": ""
+    },
+    {
+      "tag": "please",
+      "patterns": ["How do you say 'Please' in French?"],
+      "responses": ["S'il vous plaît."],
+      "context_set": ""
+    },
+    {
+      "tag": "yes_no",
+      "patterns": ["How do you say 'Yes' and 'No' in French?"],
+      "responses": ["what you want."],
+      "context_set": ""
+    },
+    {
+      "tag": "water",
+      "patterns": ["What is the French word for 'Water'?"],
+      "responses": ["Eau."],
+      "context_set": ""
+    },
+    {
+      "tag": "bread",
+      "patterns": ["How do you say 'Bread' in French?"],
+      "responses": ["Pain."],
+      "context_set": ""
+    },
+    {
+      "tag": "number_one",
+      "patterns": ["How do you say the number 'One' in French?"],
+      "responses": ["Un."],
+      "context_set": ""
+    },
+    {
+      "tag": "number_five",
+      "patterns": ["How do you say the number 'Five' in French?"],
+      "responses": ["Cinq."],
+      "context_set": ""
+    },
+    {
+      "tag": "number_ten",
+      "patterns": ["What is 'Ten' in French?"],
+      "responses": ["Dix."],
+      "context_set": ""
+    },
+    {
+      "tag": "number_twenty",
+      "patterns": ["How do you say 'Twenty' in French?"],
+      "responses": ["Vingt."],
+      "context_set": ""
+    },
+    {
+      "tag": "number_hundred",
+      "patterns": ["How do you say 'One hundred' in French?"],
+      "responses": ["Cent."],
+      "context_set": ""
+    },
+    {
+      "tag": "monday",
+      "patterns": ["How do you say 'Monday' in French?"],
+      "responses": ["Lundi."],
+      "context_set": ""
+    },
+    {
+      "tag": "friday",
+      "patterns": ["What is 'Friday' in French?"],
+      "responses": ["Vendredi."],
+      "context_set": ""
+    },
+    {
+      "tag": "sunday",
+      "patterns": ["How do you say 'Sunday' in French?"],
+      "responses": ["Dimanche."],
+      "context_set": ""
+    },
+    {
+      "tag": "day_today",
+      "patterns": ["How do you ask 'What day is today?' in French?"],
+      "responses": ["Quel jour sommes-nous aujourd'hui ?"],
+      "context_set": ""
+    },
+    {
+      "tag": "today_tuesday",
+      "patterns": ["How do you respond with 'Today is Tuesday'?"],
+      "responses": ["Aujourd'hui, c'est mardi."],
+      "context_set": ""
+    },
+    {
+      "tag": "color_red",
+      "patterns": ["What is the French word for 'Red'?"],
+      "responses": ["Rouge."],
+      "context_set": ""
+    },
+    {
+      "tag": "color_blue",
+      "patterns": ["How do you say 'Blue' in French?"],
+      "responses": ["Bleu."],
+      "context_set": ""
+    },
+    {
+      "tag": "color_green",
+      "patterns": ["How do you say 'Green' in French?"],
+      "responses": ["Vert."],
+      "context_set": ""
+    },
+    {
+      "tag": "color_yellow",
+      "patterns": ["What is the French word for 'Yellow'?"],
+      "responses": ["Jaune."],
+      "context_set": ""
+    },
+    {
+      "tag": "favorite_color",
+      "patterns": ["How do you ask 'What is your favorite color?' in French?"],
+      "responses": ["Quelle est ta couleur préférée ?"],
+      "context_set": ""
+    },
+    {
+      "tag": "greeting",
+      "patterns": ["How do you say 'Hello' in Japanese?"],
+      "responses": ["Konnichiwa (こんにちは)."],
+      "context_set": ""
+    },
+    {
+      "tag": "good_morning",
+      "patterns": ["How do you say 'Good morning' in Japanese?"],
+      "responses": ["Ohayou gozaimasu (おはようございます)."],
+      "context_set": ""
+    },
+    {
+      "tag": "good_night",
+      "patterns": ["How do you say 'Good night' in Japanese?"],
+      "responses": ["Oyasumi nasai (おやすみなさい)."],
+      "context_set": ""
+    },
+    {
+      "tag": "thank_you",
+      "patterns": ["How do you say 'Thank you' in Japanese?"],
+      "responses": ["Arigatou gozaimasu (ありがとうございます)."],
+      "context_set": ""
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["How do you say 'Goodbye' in Japanese?"],
+      "responses": ["Sayounara (さようなら)."],
+      "context_set": ""
+    },
+    {
+      "tag": "one",
+      "patterns": ["How do you say 'One' in Japanese?"],
+      "responses": ["Ichi (いち)."],
+      "context_set": ""
+    },
+    {
+      "tag": "two",
+      "patterns": ["How do you say 'Two' in Japanese?"],
+      "responses": ["Ni (に)."],
+      "context_set": ""
+    },
+    {
+      "tag": "three",
+      "patterns": ["How do you say 'Three' in Japanese?"],
+      "responses": ["San (さん)."],
+      "context_set": ""
+    },
+    {
+      "tag": "four",
+      "patterns": ["How do you say 'Four' in Japanese?"],
+      "responses": ["Shi or Yon (し / よん)."],
+      "context_set": ""
+    },
+    {
+      "tag": "five",
+      "patterns": ["How do you say 'Five' in Japanese?"],
+      "responses": ["Go (ご)."],
+      "context_set": ""
+    },
+    {
+      "tag": "red",
+      "patterns": ["How do you say 'Red' in Japanese?"],
+      "responses": ["Aka (あか)."],
+      "context_set": ""
+    },
+    {
+      "tag": "blue",
+      "patterns": ["How do you say 'Blue' in Japanese?"],
+      "responses": ["Ao (あお)."],
+      "context_set": ""
+    },
+    {
+      "tag": "green",
+      "patterns": ["How do you say 'Green' in Japanese?"],
+      "responses": ["Midori (みどり)."],
+      "context_set": ""
+    },
+    {
+      "tag": "yellow",
+      "patterns": ["How do you say 'Yellow' in Japanese?"],
+      "responses": ["Kiiro (きいろ)."],
+      "context_set": ""
+    },
+    {
+      "tag": "white",
+      "patterns": ["How do you say 'White' in Japanese?"],
+      "responses": ["Shiro (しろ)."],
+      "context_set": ""
+    },
+    {
+      "tag": "name_question",
+      "patterns": ["How do you say 'What is your name?' in Japanese?"],
+      "responses": ["Anata no namae wa nan desu ka? (あなたの名前は何ですか？)."],
+      "context_set": ""
+    },
+    {
+      "tag": "introduce_name",
+      "patterns": ["How do you say 'My name is [Name]' in Japanese?"],
+      "responses": ["Watashi no namae wa [Name] desu (私の名前は[Name]です)."],
+      "context_set": ""
+    },
+    {
+      "tag": "how_are_you",
+      "patterns": ["How do you say 'How are you?' in Japanese?"],
+      "responses": ["Ogenki desu ka? (お元気ですか？)."],
+      "context_set": ""
+    },
+    {
+      "tag": "im_fine",
+      "patterns": ["How do you say 'I’m fine, thank you' in Japanese?"],
+      "responses": ["Genki desu, arigatou (元気です、ありがとう)."],
+      "context_set": ""
+    },
+    {
+      "tag": "please",
+      "patterns": ["How do you say 'Please' in Japanese?"],
+      "responses": ["Onegaishimasu (お願いします)."],
+      "context_set": ""
+    },
+    {
+      "tag": "book",
+      "patterns": ["How do you say 'Book' in Japanese?"],
+      "responses": ["Hon (ほん)."],
+      "context_set": ""
+    },
+    {
+      "tag": "pen",
+      "patterns": ["How do you say 'Pen' in Japanese?"],
+      "responses": ["Pen (ペン)."],
+      "context_set": ""
+    },
+    {
+      "tag": "table",
+      "patterns": ["How do you say 'Table' in Japanese?"],
+      "responses": ["Tsukue (つくえ)."],
+      "context_set": ""
+    },
+    {
+      "tag": "chair",
+      "patterns": ["How do you say 'Chair' in Japanese?"],
+      "responses": ["Isu (いす)."],
+      "context_set": ""
+    },
+    {
+      "tag": "bag",
+      "patterns": ["How do you say 'Bag' in Japanese?"],
+      "responses": ["Kaban (かばん)."],
+      "context_set": ""
+    },
+    {
+      "tag": "greeting",
+      "patterns": ["How do you say 'Hello' in Korean?"],
+      "responses": ["안녕하세요 (Annyeonghaseyo)"],
+      "context_set": ""
+    },
+    {
+      "tag": "thank_you",
+      "patterns": ["What is 'Thank you' in Korean?"],
+      "responses": ["감사합니다 (Gamsahamnida)"],
+      "context_set": ""
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["How do you say 'Goodbye' in Korean?"],
+      "responses": ["안녕히 가세요 (Annyeonghi gaseyo) [when someone is leaving]",
+        "안녕히 계세요 (Annyeonghi gyeseyo) [when you are leaving]"],
+      "context_set": ""
+    },
+    {
+      "tag": "yes",
+      "patterns": ["How do you say 'Yes' in Korean?"],
+      "responses": ["네 (Ne)"],
+      "context_set": ""
+    },
+    {
+      "tag": "no",
+      "patterns": ["How do you say 'No' in Korean?"],
+      "responses": ["아니요 (Aniyo)"],
+      "context_set": ""
+    },
+    {
+      "tag": "how_are_you",
+      "patterns": ["How do you say 'How are you?' in Korean?"],
+      "responses": ["어떻게 지내세요? (Eotteoke jinaeseyo?)"],
+      "context_set": ""
+    },
+    {
+      "tag": "i_am_fine",
+      "patterns": ["What is 'I am fine' in Korean?"],
+      "responses": ["잘 지내요 (Jal jinaeyo)"],
+      "context_set": ""
+    },
+    {
+      "tag": "good_morning",
+      "patterns": ["How do you say 'Good morning' in Korean?"],
+      "responses": ["좋은 아침 (Joeun achim)"],
+      "context_set": ""
+    },
+    {
+      "tag": "good_night",
+      "patterns": ["How do you say 'Good night' in Korean?"],
+      "responses": ["잘 자요 (Jal jayo)"],
+      "context_set": ""
+    },
+    {
+      "tag": "please",
+      "patterns": ["What is 'Please' in Korean?"],
+      "responses": ["제발 (Jebal)"],
+      "context_set": ""
+    },
+    {
+      "tag": "excuse_me",
+      "patterns": ["How do you say 'Excuse me' in Korean?"],
+      "responses": ["실례합니다 (Sillyehamnida)"],
+      "context_set": ""
+    },
+    {
+      "tag": "sorry",
+      "patterns": ["How do you say 'Sorry' in Korean?"],
+      "responses": ["죄송합니다 (Joesonghamnida)"],
+      "context_set": ""
+    },
+    {
+      "tag": "i_dont_understand",
+      "patterns": ["How do you say 'I don’t understand' in Korean?"],
+      "responses": ["이해하지 못해요 (Ihaehaji mothaeyo)"],
+      "context_set": ""
+    },
+    {
+      "tag": "i_love_you",
+      "patterns": ["What is 'I love you' in Korean?"],
+      "responses": ["사랑해요 (Saranghaeyo)"],
+      "context_set": ""
+    },
+    {
+      "tag": "your_name",
+      "patterns": ["How do you say 'What is your name?' in Korean?"],
+      "responses": ["이름이 뭐에요? (Ireumi mwoeyo?)"],
+      "context_set": ""
+    },
+    {
+      "tag": "my_name_is",
+      "patterns": ["How do you say 'My name is [name]' in Korean?"],
+      "responses": ["제 이름은 [name] 입니다 (Je ireumeun [name] imnida)"],
+      "context_set": ""
+    },
+    {
+      "tag": "where_are_you_from",
+      "patterns": ["How do you say 'Where are you from?' in Korean?"],
+      "responses": ["어디에서 오셨어요? (Eodieseo osyeosseoyo?)"],
+      "context_set": ""
+    },
+    {
+      "tag": "i_am_from",
+      "patterns": ["What is 'I am from [country]' in Korean?"],
+      "responses": ["저는 [country]에서 왔어요 (Jeoneun [country]eseo wasseoyo)"],
+      "context_set": ""
+    },
+    {
+      "tag": "what_time",
+      "patterns": ["How do you say 'What time is it?' in Korean?"],
+      "responses": ["지금 몇 시에요? (Jigeum myeot sieyo?)"],
+      "context_set": ""
+    },
+    {
+      "tag": "i_am_hungry",
+      "patterns": ["What is 'I am hungry' in Korean?"],
+      "responses": ["배고파요 (Baegopayo)"],
+      "context_set": ""
+    },
+    {
+      "tag": "i_am_thirsty",
+      "patterns": ["How do you say 'I am thirsty' in Korean?"],
+      "responses": ["목말라요 (Mokmallayo)"],
+      "context_set": ""
+    },
+    {
+      "tag": "i_want_to_eat",
+      "patterns": ["How do you say 'I want to eat' in Korean?"],
+      "responses": ["먹고 싶어요 (Meokgo sipeoyo)"],
+      "context_set": ""
+    },
+    {
+      "tag": "can_you_help_me",
+      "patterns": ["How do you say 'Can you help me?' in Korean?"],
+      "responses": ["도와줄 수 있어요? (Dowajul su isseoyo?)"],
+      "context_set": ""
+    },
+    {
+      "tag": "i_dont_know",
+      "patterns": ["How do you say 'I don’t know' in Korean?"],
+      "responses": ["몰라요 (Mollayo)"],
+      "context_set": ""
+    },
+    {
+      "tag": "where_is_bathroom",
+      "patterns": ["How do you say 'Where is the bathroom?' in Korean?"],
+      "responses": ["화장실 어디에요? (Hwajangsil eodieyo?)"],
+      "context_set": ""
+    }
+  ]
+}
